@@ -16,7 +16,9 @@ It may help to consider the DAG of the parallel program.
 Since the mergesort recursively divides n then n/2 then n/4 and so on, its added up as 
 $\Theta(n)$ + $\Theta(n/2)$ + $\Theta(n/4)$ + ... = which sums up to the worst case $\Theta(n)$
 
-I used my Mergesort code
+I used my Mergesort code and testing code
+
+unfortunately I couldnt get the testing to run 100% but it should work if implemented correctly
 
 [DAG](https://math.stackexchange.com/questions/3836719/dag-decomposition-into-parallel-components)
 
